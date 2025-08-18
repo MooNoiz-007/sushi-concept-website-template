@@ -21,25 +21,23 @@
 
     header {
         height: 800px;
-        /* background: url("../img/bg-page0.png");  */
+        background: url("../img/bg-page1.png"); 
         background-repeat: no-repeat;
         background-size: cover;
 
           nav {
-            margin: 0 32px;
-            
+            margin: 0 0px;
 
             .nav-wrapper {
-                position: relative;
-                height: 120px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center; 
-                width: 100%;
-                background-color: var(--blue);
-                 
+                position: relative;  /* ตำแหน่งสัมพันธ์กับ parent เอาไว้ใช้จัดวาง element ลูก */
+                height: 120px; /* กำหนดความสูงของ nav bar = 120px */
+                display: flex; /* ใช้ Flexbox จัด layout */
+                justify-content: space-between;  /* จัดวาง element ภายในให้แยกออกซ้าย-ขวา */
+                align-items: center;  /* จัดให้อยู่กึ่งกลางในแนวตั้ง */  
+                background-color: var(--blue); /* ใส่สีพื้นหลัง โดยใช้ค่า CSS Variable ชื่อ --blue */
+                padding: 50px;
             }
-
+        }
             .menu {
                 display: flex;
                 list-style: none;
@@ -53,9 +51,5 @@
                 color: var(--white);
                 text-decoration: none;
             }
-
-
-
-        }
-    }
+    }  
       
