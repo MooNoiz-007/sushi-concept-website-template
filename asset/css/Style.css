@@ -11,29 +11,61 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 
-.container {
-    /* max-width: ; */
-    margin: 0 auto;
 }
 
-}
+    .container {
+        margin: 0 auto;
+    }
 
-/* Headder Section */
-
-header {
+.bg {
     height: 800px;
     background: url("../img/bg-page1.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 
-    nav {
-        .top-bar {
-            background-color: var(--blue);
-            display: flex;
+.top-bar {
+    height: 85px;
+    background: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
 
-        }
+.menu {
+    display: flex;
+    list-style: none;
+    
 
-
-
+    li {
+        margin-left: 50px;
     }
+
+    a {
+        color: var(--white);
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+.menu-search {
+     list-style: none;
+
+    li {
+        margin-left: 50px;
+    }
+
+    a {
+        color: var(--white);
+        text-decoration: none;
+    }
+
+}
+
+
+
+
+
+
+
