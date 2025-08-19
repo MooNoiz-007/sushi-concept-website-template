@@ -1,5 +1,5 @@
 :root {
-    --blue: #1a0465;
+    --blue: #21243d;
     --black: #333333 ;
     --white: #ffffff ;
 
@@ -10,47 +10,30 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-}
 
 .container {
-    max-width: 100%;
+    /* max-width: ; */
     margin: 0 auto;
 }
 
+}
 
-/* Header section */
+/* Headder Section */
 
-    header {
-        height: 800px;
-        background: url("../img/bg-page1.png"); 
-        background-repeat: no-repeat;
-        background-size: cover;
+header {
+    height: 800px;
+    background: url("../img/bg-page1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-          nav {
-            margin: 0 0px;
+    nav {
+        .top-bar {
+            background-color: var(--blue);
+            display: flex;
 
-            .nav-wrapper {
-                position: relative;  /* ตำแหน่งสัมพันธ์กับ parent เอาไว้ใช้จัดวาง element ลูก */
-                height: 120px; /* กำหนดความสูงของ nav bar = 120px */
-                display: flex; /* ใช้ Flexbox จัด layout */
-                justify-content: space-between;  /* จัดวาง element ภายในให้แยกออกซ้าย-ขวา */
-                align-items: center;  /* จัดให้อยู่กึ่งกลางในแนวตั้ง */  
-                background-color: var(--blue); /* ใส่สีพื้นหลัง โดยใช้ค่า CSS Variable ชื่อ --blue */
-                padding: 50px;
-            }
         }
-            .menu {
-                display: flex;
-                list-style: none;
-            }
 
-            li {
-                margin-left: 50px;
-            }
 
-            a {
-                color: var(--white);
-                text-decoration: none;
-            }
-    }  
-      
+
+    }
