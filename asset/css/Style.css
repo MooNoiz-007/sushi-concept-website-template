@@ -401,3 +401,67 @@
     }
 }
 
+/* Section subscribe */
+
+.sub {
+    height: 800px;
+    background: url("/asset/img/bg-page7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .sub-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        color: var(--blue);
+
+        .sub-info {
+            text-align: center;
+
+            h2 {
+                font-size: 80px;
+            }
+
+            p {
+                font-size: 25px;
+                padding: 25px;
+            }
+
+            form {
+                display: flex;
+                justify-content: center;
+                margin: 20px;
+               
+                input {
+                    
+                    max-width: 550px;
+                    width: 100%;
+                    padding: 20px;
+                    border: none;
+                    outline: none;
+                    /* border-radius:  top-left   top-right   bottom-right   bottom-left;*/
+                    border-radius: 50px 0 0 50px;
+                    
+
+                }
+
+                button {
+                    max-width: 220px;
+                    width: 100%;
+                    padding: 20px;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    background-color: var(--blue);
+                    color: var(--white);
+                    text-transform: uppercase;
+                    font-weight: bold; 
+                    border-radius: 50px; 
+                    margin-left: -20px;
+                }
+
+            }
+        }
+    }
+}
