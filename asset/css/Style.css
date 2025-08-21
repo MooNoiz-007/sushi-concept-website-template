@@ -360,17 +360,44 @@
                     width: 110%;
                     border-radius: 50%;
                 }
-
-            
         }
     }
 }
 
+/* Person section */
 
+.person {
+    height: 800px;
+    background: url("/asset/img/bg-page6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    .person-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 800px;
+        color: var(--white);
 
+        .person-info {  
 
+            img {
+                border-radius: 50%;
+                max-width: 250px;
+                width: 100%;
+            }
 
+            p  {
+                font-size: 25px;
+                padding: 20px;
+            }
 
+            h2 {
+                font-size: 50px;
+            }
+        }
 
+    }
+}
 
