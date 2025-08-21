@@ -167,6 +167,17 @@
 
 }
 
+/* Section Shushi */
 
+.title-shushi {
+    height: 800px;
+    background: url("../img/bg-page3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title-shushi-wrapper {
+        
+    }
+}
 
 
