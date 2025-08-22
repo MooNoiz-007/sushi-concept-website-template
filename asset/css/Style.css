@@ -465,3 +465,25 @@
         }
     }
 }
+
+/* Section footer */
+
+footer {
+    height: 800px;
+    background-color: var(--black);
+
+    .footer-wrapper {
+        display: flex;
+        align-items: center;
+        height: 800px;
+
+        .footer-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
+            gap: 20px;
+            color: var(--white);
+            
+        }
+    }
+}
